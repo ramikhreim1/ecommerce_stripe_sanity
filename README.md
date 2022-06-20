@@ -3,8 +3,11 @@ Successfully deployed to the following URLs:
 
 
 ecommerce-stripe-sanity-alpha.vercel.app
+
 ecommerce-stripe-sanity-git-main-ramikhreim1.vercel.app
+
 ecommerce-stripe-sanity-ramikhreim1.vercel.app
+
 ## Getting Started
 
 First, run the development server:
