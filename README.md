@@ -2,11 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Successfully deployed to the following URLs:
 
 
-ecommerce-stripe-sanity-alpha.vercel.app
+https://ecommerce-stripe-sanity-alpha.vercel.app/
 
-ecommerce-stripe-sanity-git-main-ramikhreim1.vercel.app
+https://ecommerce-stripe-sanity-git-main-ramikhreim1.vercel.app
 
-ecommerce-stripe-sanity-ramikhreim1.vercel.app
+https://ecommerce-stripe-sanity-ramikhreim1.vercel.app
 
 ## Getting Started
 
