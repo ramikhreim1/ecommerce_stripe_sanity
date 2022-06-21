@@ -1,22 +1,41 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-Successfully deployed to the following URLs:
 
+Successfully deployed to the following URLs:
 
 https://ecommerce-stripe-sanity-alpha.vercel.app/
 
 https://ecommerce-stripe-sanity-git-main-ramikhreim1.vercel.app
 
 https://ecommerce-stripe-sanity-ramikhreim1.vercel.app
+building many advanced React & JavaScript topics, as well as i used Stripe for card transactions, and On top of that i used Sanity for the backend CM.  
+   
 
 ## Getting Started
-
-First, run the development server:
+First, setup the development server:
+npx create-next-app
+second, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
 ```
+T install all packeges in the package.json run:
+npm install --legacy-peer-deps
+
+## Setup Stripe (payments gatway) and Sanity backend:
+
+edit .env file on the root and replace the Sanity and Stripe token with your new generated token from sanity.io/stripe.com
+NEXT_PUBLIC_SANITY_TOKEN = 
+EXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+
+
+Install Sanity Studio
+Next, you’ll set up Sanity Studio on your computer. You’ll need node.js for this to work.
+
+Paste this into your command line, and follow the instructions on screen.
+npm install -g @sanity/cli && sanity init --template get-started --project uxaowlco --dataset production --provider google
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -41,4 +60,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 ![image](https://user-images.githubusercontent.com/99683327/174653507-22a109c9-4512-4dfc-a4f6-1475305fed08.png)
+
+## Deploy Sanity Studio
+sanity deploy 
+
 
